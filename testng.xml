@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+
+<suite name="Sample suite">
+  <test name = "TC_01"  thread-count="1">
+   <parameter name="browser" value="C"/>
+   <classes>
+      <class name="tests.TC_01"/> 
+    </classes>
+   </test>
+   </suite>

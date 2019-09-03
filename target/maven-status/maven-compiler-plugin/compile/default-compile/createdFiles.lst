@@ -1,0 +1,4 @@
+com\pomframework\App.class
+common\Base.class
+common\PageActions.class
+pageobjects\GmailPage.class

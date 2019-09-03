@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample suite" duration-ms="34478" started-at="2019-09-03T18:18:02Z" finished-at="2019-09-03T18:18:36Z">
+    <groups>
+    </groups>
+    <test name="TC_01" duration-ms="34478" started-at="2019-09-03T18:18:02Z" finished-at="2019-09-03T18:18:36Z">
+      <class name="tests.TC_01">
+        <test-method status="PASS" signature="setUp(char)[pri:0, instance:tests.TC_01@f82f98]" name="setUp" is-config="true" duration-ms="29933" started-at="2019-09-03T18:18:02Z" finished-at="2019-09-03T18:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:tests.TC_01@f82f98]" name="test" duration-ms="2388" started-at="2019-09-03T18:18:32Z" finished-at="2019-09-03T18:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TC_01@f82f98]" name="tearDown" is-config="true" duration-ms="2125" started-at="2019-09-03T18:18:34Z" finished-at="2019-09-03T18:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC_01 -->
+    </test> <!-- TC_01 -->
+  </suite> <!-- Sample suite -->
+</testng-results>
