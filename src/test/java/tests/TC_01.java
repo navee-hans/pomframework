@@ -10,7 +10,7 @@ public class TC_01 extends Base{
 	public void test()
 	{
 		GmailPage gmail = new GmailPage();
-		gmail.clickOnCreateAnAccount();
+		gmail.clickCreateAnAccount();
 	}
 	
 }

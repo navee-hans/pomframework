@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
-
-<suite name="Sample suite">
-  <test name = "TC_01"  thread-count="1">
-   <parameter name="browser" value="C"/>
-   <classes>
-      <class name="tests.TC_01"/> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Sample suite" parallel="none">
+<listeners>
+        <listener class-name="util.RetryListener"/>
+  </listeners> 
+  <test name = "testing">
+   <parameter name="browser" value='F'/>
+  	<groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+		<class name="tests.GmailLoginSuccess" />
+       	<class name="tests.SearchEmailInInbox" />
+       	<class name="tests.GmailLoginFails" />
+       <class name="tests.RetryFailedTest" />
     </classes>
-   </test>
+      </test>
    </suite>

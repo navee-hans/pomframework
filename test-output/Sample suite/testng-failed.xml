@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Sample suite]">
-  <test thread-count="5" name="TC_01(failed)">
-    <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="util.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="testing(failed)">
+    <parameter name="browser" value="F"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
     <classes>
-      <class name="tests.TC_01">
+      <class name="tests.RetryFailedTest">
         <methods>
           <include name="setUp"/>
-          <include name="test"/>
+          <include name="tearDown"/>
+          <include name="retryFailedTest"/>
         </methods>
-      </class> <!-- tests.TC_01 -->
+      </class> <!-- tests.RetryFailedTest -->
+      <class name="tests.SearchEmailInInbox">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="searchEmailInInbox"/>
+        </methods>
+      </class> <!-- tests.SearchEmailInInbox -->
     </classes>
-  </test> <!-- TC_01(failed) -->
+  </test> <!-- testing(failed) -->
 </suite> <!-- Failed suite [Sample suite] -->

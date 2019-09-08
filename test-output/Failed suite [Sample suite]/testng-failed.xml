@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Sample suite]]">
+  <listeners>
+    <listener class-name="util.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="loginfails(failed)(failed)">
+    <parameter name="browser" value="C"/>
+    <classes>
+      <class name="tests.GmailLoginFails">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginFails"/>
+        </methods>
+      </class> <!-- tests.GmailLoginFails -->
+    </classes>
+  </test> <!-- loginfails(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Sample suite]] -->
