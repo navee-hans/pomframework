@@ -6,11 +6,11 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageActions{
-	
 	WebDriver driver = Base.driver;
 	WebDriverWait wait = new WebDriverWait(driver, 20);
 	private WebElement element;

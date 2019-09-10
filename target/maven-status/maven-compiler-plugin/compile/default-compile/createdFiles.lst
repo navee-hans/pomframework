@@ -1,4 +1,7 @@
-com\pomframework\App.class
 common\Base.class
 common\PageActions.class
 pageobjects\GmailPage.class
+pageobjects\GmailSignInPage.class
+util\RetryListener.class
+util\Retry.class
+pageobjects\GmailHomePage.class

@@ -10,7 +10,7 @@ public class Retry extends Base implements IRetryAnalyzer {
 			
 			//The max limit to retry running of failed test cases
 			//Set the value to the number of times we want to retry
-			private int maxRetryLimit = 2;
+			private int maxRetryLimit = 1;
 	
 	
 	@Override

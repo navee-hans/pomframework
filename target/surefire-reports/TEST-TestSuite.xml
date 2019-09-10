@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="35.528" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="156.035" tests="7" errors="0" skipped="3" failures="1">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="pomframework"/>
@@ -12,39 +12,41 @@
     <property name="POM_ARTIFACTID" value="pomframework"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_151\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="POM_DISPLAYNAME" value="pomframework"/>
     <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="TEMP" value="C:\Users\my\AppData\Local\Temp"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
     <property name="WINSW_SERVICE_ID" value="Jenkins"/>
-    <property name="user.name" value="DESKTOP-A2HUG71$"/>
+    <property name="user.name" value="my"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="pomframework"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/pomframework/7/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/pomframework/8/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
+    <property name="OneDrive" value="C:\Users\my\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_151\jre\bin"/>
-    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="LOCALAPPDATA" value="C:\Users\my\AppData\Local"/>
     <property name="java.version" value="1.8.0_151"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="USERNAME" value="DESKTOP-A2HUG71$"/>
+    <property name="USERNAME" value="my"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="7"/>
+    <property name="BUILD_ID" value="8"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="file.separator" value="\"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
     <property name="maven.conf" value="C:\Program Files (x86)\apache-maven-3.6.1\conf"/>
     <property name="java.class.version" value="52.0"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
@@ -53,43 +55,45 @@
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_151\jre"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/pomframework/7/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/pomframework/8/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="TMP" value="C:\Users\my\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.151-b12"/>
     <property name="user.variant" value=""/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/pomframework/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-A2HUG71"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_151"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\my"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="POM_PACKAGING" value="jar"/>
-    <property name="SERVICE_ID" value="Jenkins"/>
-    <property name="COMPUTERNAME" value="DESKTOP-A2HUG71"/>
     <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DESKTOP-A2HUG71"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
     <property name="POM_GROUPID" value="com"/>
-    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.home" value="C:\Users\my"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-pomframework-7"/>
+    <property name="BUILD_TAG" value="jenkins-pomframework-8"/>
     <property name="JENKINS_SERVER_COOKIE" value="6ebdae27f8dc4857"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="USERPROFILE" value="C:\Users\my"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\apache-maven-3.6.1/bin;C:\Program Files (x86)\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Java\jdk1.8.0_151\bin;C:\gradle\bin;C:\Users\my\AppData\Local\Android\android-sdk\tools;C:\Users\my\AppData\Local\Android\android-sdk\platforms;C:\Users\my\AppData\Local\Android\android-sdk\platform-tools;E:\webdriverioproject\webdriver-io\driver;C:\WINDOWS\System32\OpenSSH\;F:\axis2-1.6.2\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GnuWin32\bin;C:\venv\demo\demo-env\Include;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\apache-maven-3.6.1/bin;C:\Program Files (x86)\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Java\jdk1.8.0_151\bin;C:\gradle\bin;C:\Users\my\AppData\Local\Android\android-sdk\tools;C:\Users\my\AppData\Local\Android\android-sdk\platforms;C:\Users\my\AppData\Local\Android\android-sdk\platform-tools;E:\webdriverioproject\webdriver-io\driver;C:\WINDOWS\System32\OpenSSH\;F:\axis2-1.6.2\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GnuWin32\bin;C:\venv\demo\demo-env\Include;C:\Program Files (x86)\apache-maven-3.6.1\bin;C:\Python\Scripts\;C:\Python\;C:\Users\my\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;C:\Users\my\AppData\Roaming\npm;C:\Users\my\AppData\Local\Programs\Microsoft VS Code\bin;C:\Python;C:\Python\lib;C:\Python\Scripts;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="APPDATA" value="C:\Users\my\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\apache-maven-3.6.1"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar;C:\Program Files (x86)\apache-maven-3.6.1/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\apache-maven-3.6.1 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 1172"/>
-    <property name="Path" value="C:\Program Files (x86)\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Java\jdk1.8.0_151\bin;C:\gradle\bin;C:\Users\my\AppData\Local\Android\android-sdk\tools;C:\Users\my\AppData\Local\Android\android-sdk\platforms;C:\Users\my\AppData\Local\Android\android-sdk\platform-tools;E:\webdriverioproject\webdriver-io\driver;C:\WINDOWS\System32\OpenSSH\;F:\axis2-1.6.2\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GnuWin32\bin;C:\venv\demo\demo-env\Include;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\apache-maven-3.6.1 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 1294"/>
+    <property name="Path" value="C:\Program Files (x86)\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Java\jdk1.8.0_151\bin;C:\gradle\bin;C:\Users\my\AppData\Local\Android\android-sdk\tools;C:\Users\my\AppData\Local\Android\android-sdk\platforms;C:\Users\my\AppData\Local\Android\android-sdk\platform-tools;E:\webdriverioproject\webdriver-io\driver;C:\WINDOWS\System32\OpenSSH\;F:\axis2-1.6.2\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GnuWin32\bin;C:\venv\demo\demo-env\Include;C:\Program Files (x86)\apache-maven-3.6.1\bin;C:\Python\Scripts\;C:\Python\;C:\Users\my\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;C:\Users\my\AppData\Roaming\npm;C:\Users\my\AppData\Local\Programs\Microsoft VS Code\bin;C:\Python;C:\Python\lib;C:\Python\Scripts"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
     <property name="PATH+JDK" value="C:\Program Files (x86)\Java\jdk1.8.0_151/bin"/>
@@ -98,12 +102,12 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="M2_HOME" value="C:\Program Files (x86)\apache-maven-3.6.1"/>
-    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.io.tmpdir" value="C:\Users\my\AppData\Local\Temp\"/>
     <property name="OS" value="Windows_NT"/>
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\apache-maven-3.6.1/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/pomframework/7/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/pomframework/8/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="x86"/>
@@ -111,17 +115,20 @@
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="user.dir" value="C:\Users\my\workspace\pomframework"/>
     <property name="JOB_URL" value="http://localhost:8080/job/pomframework/"/>
-    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-A2HUG71"/>
+    <property name="USERDOMAIN" value="DESKTOP-A2HUG71"/>
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\Program Files (x86)\apache-maven-3.6.1"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="BUILD_NUMBER" value="7"/>
+    <property name="BUILD_NUMBER" value="8"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="ANDROID_HOME" value="C:\Users\my\AppData\Local\Android\android-sdk"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
+    <property name="GIT_COMMIT" value="3e1dbde51680886249c8673567db0b12fffaad65"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
@@ -131,6 +138,57 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="GIT_URL" value="https://github.com/navee-hans/pomframework"/>
   </properties>
-  <testcase name="test" classname="tests.TC_01" time="2.388"/>
+  <testcase name="loginGmail" classname="tests.GmailLoginSuccess" time="10.956"/>
+  <testcase name="searchEmailInInbox" classname="tests.SearchEmailInInbox" time="0">
+    <skipped message="The element reference of &lt;span class=&quot;RveJvd snByac&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-A2HUG71&apos;, ip: &apos;192.168.100.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190813150448, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19164, moz:profile: C:\Users\my\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 1286c7ee-a8f0-41ab-9999-79f0699851db"/>
+    <system-err><![CDATA[1567962899211	Marionette	INFO	Stopped listening on port 1319
+J[Parent 15220, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+avaScript error: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.gv3RAEza-G0.O/am=vQKfg_AIQi7hi53RABIQQoUc7P0mp-hPLqsL8BAl1_FvdaAPAAAAAAAAAAAAAAAAAAAA96CRIg/d=1/im=1/dg=0/rs=AHGWq9DzKCVS4zfDKKRkVvkvZku6waUBhQ/m=b, line 770: NS_ERROR_NOT_INITIALIZED: 
+[Parent 15220, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1567962909476	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\my\\AppData\\Local\\Temp\\rust_mozprofile.CkvUdBreoEUk"
+1567962910521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567962910521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567962910522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567962910522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567962913932	Marionette	INFO	Listening on port 1407
+1567962913986	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sep 08, 2019 10:45:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="searchEmailInInbox" classname="tests.SearchEmailInInbox" time="10.762"/>
+  <testcase name="loginFails" classname="tests.GmailLoginFails" time="10.478"/>
+  <testcase name="retryFailedTest" classname="tests.RetryFailedTest" time="0">
+    <skipped message="Wrong Password error message is displayed expected [false] but found [true]"/>
+    <system-err><![CDATA[1567962962538	Marionette	INFO	Stopped listening on port 1482
+1567962966912	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\my\\AppData\\Local\\Temp\\rust_mozprofile.gs3x3iIW9QFv"
+1567962968034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567962968034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567962968035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567962968035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567962972264	Marionette	INFO	Listening on port 1560
+1567962972389	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sep 08, 2019 10:46:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="retryFailedTest" classname="tests.RetryFailedTest" time="0">
+    <skipped message="Wrong Password error message is displayed expected [false] but found [true]"/>
+    <system-err><![CDATA[console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+]]></system-err>
+  </testcase>
+  <testcase name="retryFailedTest" classname="tests.RetryFailedTest" time="8.041">
+    <failure message="Wrong Password error message is displayed expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: Wrong Password error message is displayed expected [false] but found [true]
+	at tests.RetryFailedTest.retryFailedTest(RetryFailedTest.java:37)
+</failure>
+  </testcase>
 </testsuite>

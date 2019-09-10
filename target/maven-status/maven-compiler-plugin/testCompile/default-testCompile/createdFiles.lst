@@ -1,2 +1,5 @@
-com\pomframework\AppTest.class
+tests\GmailLoginFails.class
+tests\RetryFailedTest.class
+tests\SearchEmailInInbox.class
+tests\GmailLoginSuccess.class
 tests\TC_01.class

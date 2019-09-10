@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.528 sec - in TestSuite
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 156.035 sec <<< FAILURE! - in TestSuite
+retryFailedTest(tests.RetryFailedTest)  Time elapsed: 8.041 sec  <<< FAILURE!
+java.lang.AssertionError: Wrong Password error message is displayed expected [false] but found [true]
+	at tests.RetryFailedTest.retryFailedTest(RetryFailedTest.java:37)
+
